@@ -8,25 +8,16 @@ export const Multiselect = () => {
   const tags = useSelector(tagsSelector);
 
   const listTags = tags.map((tag, index) => (
-    <>
+    <div className={classNames(styles.elem)} key={index}>
       <Checkbox name="tags" value={tag} tag={tag} key={index} />
-    </>
+    </div>
   ));
-
-  const elems = [];
-  for (let i = 0; i < listTags.length; i++) {
-    elems.push(
-      <div className={classNames(styles.elem)} key={i}>
-        {listTags[i]}
-      </div>
-    );
-  }
 
   return (
     <details className={classNames(styles.details)}>
       <summary className={classNames(styles.summary)}>Выбрать тег</summary>
       <div className={classNames(styles.container)}>
-        <div className={classNames(styles.elems)}>{elems}</div>
+        <div className={classNames(styles.elems)}>{listTags}</div>
       </div>
     </details>
   );

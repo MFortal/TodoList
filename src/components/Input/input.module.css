@@ -20,28 +20,14 @@
   font-family: inherit;
 }
 
-.input::-webkit-input-placeholder {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 100%;
-  letter-spacing: inherit;
-  color: var(--color-grey);
-}
-.input::-moz-placeholder {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 100%;
-  letter-spacing: inherit;
-  color: var(--color-grey);
-}
+.input::-webkit-input-placeholder,
+.input::-moz-placeholder,
 .input:-ms-input-placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
-  letter-spacing: inherit;
   line-height: 100%;
+  letter-spacing: inherit;
   color: var(--color-grey);
 }
 
