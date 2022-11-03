@@ -3,6 +3,16 @@ import { Tag } from "../Tag/Tag";
 import classNames from "classnames";
 import styles from "./Checkbox.module.css";
 
+const onChange = (form, value, props) => {
+  let nextValue;
+  if (value?.includes(props.value)) {
+    nextValue = value.filter((value) => value !== props.value);
+  } else {
+    nextValue = value.concat(props.value);
+  }
+  form.setFieldValue(props.name, nextValue);
+};
+
 export const Checkbox = (props) => {
   return (
     <Field name={props.name}>
@@ -16,17 +26,7 @@ export const Checkbox = (props) => {
             type="checkbox"
             {...props}
             checked={field.value?.includes(props.value)}
-            onChange={() => {
-              if (field.value?.includes(props.value)) {
-                const nextValue = field.value.filter(
-                  (value) => value !== props.value
-                );
-                form.setFieldValue(props.name, nextValue);
-              } else {
-                const nextValue = field.value.concat(props.value);
-                form.setFieldValue(props.name, nextValue);
-              }
-            }}
+            onChange={() => onChange(form, field.value, props)}
           />
           <span className={classNames(styles.flag)}></span>
         </label>
