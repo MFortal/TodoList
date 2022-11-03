@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TodoList/static/css/main.0c9acd1b.css",
-    "main.js": "/TodoList/static/js/main.d6a7f520.js",
+    "main.css": "/TodoList/static/css/main.1de6d320.css",
+    "main.js": "/TodoList/static/js/main.b4bbedfc.js",
     "static/media/PoorStory-Regular.svg": "/TodoList/static/media/PoorStory-Regular.cce97fde123a84a56663.svg",
     "static/media/PoorStory-Regular.ttf": "/TodoList/static/media/PoorStory-Regular.afcf42a8b0aba41b344b.ttf",
     "static/media/PoorStory-Regular.eot": "/TodoList/static/media/PoorStory-Regular.17fd851496e8f9b31c56.eot",
@@ -25,11 +25,11 @@
     "static/media/plusComment.svg": "/TodoList/static/media/plusComment.e73664ee119385a4ca37.svg",
     "static/media/markCheckbox.svg": "/TodoList/static/media/markCheckbox.3cd263d35db4959ff7e2.svg",
     "static/media/markFilter.svg": "/TodoList/static/media/markFilter.2c4a05b235a32d86c3e1.svg",
-    "main.0c9acd1b.css.map": "/TodoList/static/css/main.0c9acd1b.css.map",
-    "main.d6a7f520.js.map": "/TodoList/static/js/main.d6a7f520.js.map"
+    "main.1de6d320.css.map": "/TodoList/static/css/main.1de6d320.css.map",
+    "main.b4bbedfc.js.map": "/TodoList/static/js/main.b4bbedfc.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c9acd1b.css",
-    "static/js/main.d6a7f520.js"
+    "static/css/main.1de6d320.css",
+    "static/js/main.b4bbedfc.js"
   ]
 }
