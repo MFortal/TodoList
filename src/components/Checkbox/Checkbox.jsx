@@ -8,11 +8,11 @@ export const Checkbox = (props) => {
     <Field name={props.name}>
       {({ field, form }) => (
         <label className={classNames(styles.container)}>
-          <div className={classNames(styles._tag)}>
+          <div className={classNames(styles.tag)}>
             <Tag flagColor={props.tag} />
           </div>
           <input
-            className={classNames(styles._input)}
+            className={classNames(styles.input)}
             type="checkbox"
             {...props}
             checked={field.value?.includes(props.value)}
@@ -28,7 +28,7 @@ export const Checkbox = (props) => {
               }
             }}
           />
-          <span className={classNames(styles._flag)}></span>
+          <span className={classNames(styles.flag)}></span>
         </label>
       )}
     </Field>

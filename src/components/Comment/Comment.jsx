@@ -12,16 +12,16 @@ export const Comment = ({ name, text, cardId, commentId }) => {
 
   return (
     <div className={classNames(styles.container)}>
-      <div className={classNames(styles._header)}>
-        <p className={classNames(styles._header_name)}>{name}</p>
+      <div className={classNames(styles.header)}>
+        <p className={classNames(styles.header_name)}>{name}</p>
         <img
           src={pathCloseImg}
           alt="close"
-          className={classNames(styles._header_close)}
+          className={classNames(styles.header_close)}
           onClick={() => removeComment()}
         />
       </div>
-      <p className={classNames(styles._text)}>{text}</p>
+      <p className={classNames(styles.text)}>{text}</p>
     </div>
   );
 };

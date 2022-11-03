@@ -13,15 +13,15 @@ export const Filter = ({ id, value, checked }) => {
     <label
       className={classNames(
         styles.container,
-        checked ? styles._container_checked : ""
+        checked ? styles.container_checked : ""
       )}>
       <span
         className={classNames(
-          styles._flag,
-          checked ? styles._flag_checked : ""
+          styles.flag,
+          checked ? styles.flag_checked : ""
         )}></span>
       <input
-        className={classNames(styles._input)}
+        className={classNames(styles.input)}
         type="checkbox"
         checked={checked}
         onChange={changeCheckbox}

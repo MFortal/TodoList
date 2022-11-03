@@ -16,17 +16,17 @@ export const Multiselect = () => {
   const elems = [];
   for (let i = 0; i < listTags.length; i++) {
     elems.push(
-      <div className={classNames(styles._elem)} key={i}>
+      <div className={classNames(styles.elem)} key={i}>
         {listTags[i]}
       </div>
     );
   }
 
   return (
-    <details className={classNames(styles._details)}>
-      <summary className={classNames(styles._summary)}>Выбрать тег</summary>
-      <div className={classNames(styles._container)}>
-        <div className={classNames(styles._elems)}>{elems}</div>
+    <details className={classNames(styles.details)}>
+      <summary className={classNames(styles.summary)}>Выбрать тег</summary>
+      <div className={classNames(styles.container)}>
+        <div className={classNames(styles.elems)}>{elems}</div>
       </div>
     </details>
   );

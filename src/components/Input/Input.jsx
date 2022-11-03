@@ -18,12 +18,12 @@ export const Input = ({
         name={nameInput}
         value={valueInput}
         {...props}
-        className={classNames(styles._input)}
+        className={classNames(styles.input)}
       />
 
       <textarea
         placeholder={placeholderText}
-        className={classNames(styles._input, styles._textarea)}
+        className={classNames(styles.input, styles.textarea)}
         type="text"
         name={nameText}
         value={valueText}

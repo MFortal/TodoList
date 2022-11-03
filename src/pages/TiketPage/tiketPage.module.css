@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-._button {
+.button {
   background: transparent;
   display: flex;
   gap: 10px;
@@ -24,7 +24,7 @@
   position: relative;
 }
 
-._list_header {
+.list_header {
   margin-bottom: 14px;
   padding-left: 25px;
   padding-right: 17px;
@@ -36,12 +36,12 @@
   line-height: 1.2;
 }
 
-._header {
+.header {
   font-size: 1rem;
   line-height: 1.2;
 }
 
-._main {
+.main {
   border: solid 1px var(--color-yellow);
   border-radius: 7px;
   padding: 14px;
@@ -52,13 +52,13 @@
   align-items: center;
 }
 
-._main_cards {
+.main_cards {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-._list_btn {
+.list_btn {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -66,18 +66,18 @@
   padding: 8px;
 }
 
-._list_btnElem {
+.list_btnElem {
   width: 3px;
   height: 3px;
   border-radius: 100%;
   background: var(--color-grey);
 }
 
-._list_btn {
+.list_btn {
   cursor: pointer;
 }
 
-._pop {
+.pop {
   background: var(--color-white);
   box-shadow: 2px 3px 5px var(--color-black);
   border-radius: 6px;
@@ -109,26 +109,26 @@
   top: 5px;
 }
 
-._pop_text:hover {
+.pop_text:hover {
   cursor: pointer;
 }
 
-._tag {
+.tag {
   width: 60px;
   height: 24px;
 }
 
-._main_tags {
+.main_tags {
   display: flex;
   gap: 8px;
   width: 95%;
   flex-wrap: wrap;
 }
-._main_btn {
+.main_btn {
   width: 100%;
 }
 
-._main_comments {
+.main_comments {
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -136,7 +136,7 @@
   width: 95%;
 }
 
-._buttonComment {
+.buttonComment {
   font-size: 0.875rem;
   line-height: 1.1;
   background-color: transparent;
@@ -147,7 +147,7 @@
   gap: 12px;
 }
 
-._buttonComment::before {
+.buttonComment::before {
   content: "";
   background: url("../../icons/plusComment.svg");
   width: 12px;

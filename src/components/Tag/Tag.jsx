@@ -6,28 +6,28 @@ export const Tag = ({ flagColor }) => {
 
   switch (flagColor) {
     case "violet":
-      tagClass = styles._violet;
+      tagClass = styles.violet;
       break;
     case "red":
-      tagClass = styles._red;
+      tagClass = styles.red;
       break;
     case "green":
-      tagClass = styles._green;
+      tagClass = styles.green;
       break;
     case "orange":
-      tagClass = styles._orange;
+      tagClass = styles.orange;
       break;
     case "blue":
-      tagClass = styles._blue;
+      tagClass = styles.blue;
       break;
     case "darkBlue":
-      tagClass = styles._darkBlue;
+      tagClass = styles.darkBlue;
       break;
     case "yellow":
-      tagClass = styles._yellow;
+      tagClass = styles.yellow;
       break;
     case "lightGreen":
-      tagClass = styles._lightGreen;
+      tagClass = styles.lightGreen;
       break;
     default:
       tagClass = "";

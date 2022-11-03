@@ -9,34 +9,34 @@
   border-radius: 2px;
 }
 
-._violet {
+.violet {
   background: var(--color-tag-violet);
 }
 
-._green {
+.green {
   background: var(--color-tag-green);
 }
 
-._red {
+.red {
   background: var(--color-tag-red);
 }
 
-._orange {
+.orange {
   background: var(--color-tag-orange);
 }
 
-._blue {
+.blue {
   background: var(--color-tag-blue);
 }
 
-._lightGreen {
+.lightGreen {
   background: var(--color-tag-lightGreen);
 }
 
-._darkBlue {
+.darkBlue {
   background: var(--color-tag-darkBlue);
 }
 
-._yellow {
+.yellow {
   background: var(--color-tag-yellow);
 }

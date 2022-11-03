@@ -5,13 +5,13 @@
   align-items: center;
 }
 
-._filters {
+.filters {
   display: flex;
   margin-bottom: 80px;
   gap: 35px;
 }
 
-._cards {
+.cards {
   display: flex;
   gap: 20px;
 }
@@ -20,7 +20,7 @@
   width: 350px;
 }
 
-._header {
+.header {
   font-size: 1rem;
   line-height: 1.2;
   padding: 12px 30px;
@@ -30,18 +30,18 @@
   font-family: "PoorStory-Regular", cursive;
 }
 
-._header_title {
+.header_title {
   text-align: center;
   font-size: 1.5rem;
   position: relative;
 }
 
-._header_countTasks {
+.header_countTasks {
   color: var(--color-grey);
   font-size: 1.125rem;
 }
 
-._main {
+.main {
   border: solid 1px var(--color-yellow);
   border-radius: 7px;
   padding: 14px;
@@ -51,13 +51,13 @@
   gap: 14px;
 }
 
-._main_cards {
+.main_cards {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-._header_title::after {
+.header_title::after {
   display: block;
   position: absolute;
   left: 0;
@@ -68,10 +68,10 @@
   transition: width 0.3s ease-out;
 }
 
-.list:hover ._header_title::after {
+.list:hover .header_title::after {
   width: 80%;
 }
 
-.list:hover ._main {
+.list:hover .main {
   border: 1px solid var(--color-yellow);
 }

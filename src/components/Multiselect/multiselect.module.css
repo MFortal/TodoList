@@ -1,4 +1,4 @@
-._details {
+.details {
   background: var(--color-white);
   border: 1px solid var(--color-border);
   border-radius: 3px;
@@ -10,23 +10,23 @@
   cursor: pointer;
 }
 
-._summary {
+.summary {
   display: flex;
   padding: 10px;
   justify-content: space-between;
 }
 
-._summary::after {
+.summary::after {
   content: "";
   width: 20px;
   background: url("../../icons/arrow.svg") no-repeat center;
 }
 
-._details[open] ._summary::after {
+.details[open] .summary::after {
   transform: rotate(180deg);
 }
 
-._container {
+.container {
   position: absolute;
   top: calc(100% - 2px);
   left: 0;
@@ -39,7 +39,7 @@
   border-radius: 0px 0px 3px 3px;
 }
 
-._elems {
+.elems {
   height: 100%;
   overflow-y: scroll;
 
@@ -50,23 +50,23 @@
   padding-right: 16px;
 }
 
-._elems::-webkit-scrollbar {
+.elems::-webkit-scrollbar {
   width: 6px;
   height: 126px;
   margin: 10px;
   left: -10px;
 }
-._elems::-webkit-scrollbar-track {
+.elems::-webkit-scrollbar-track {
   background: var(--color-track);
   border-radius: 3px;
 }
-._elems::-webkit-scrollbar-thumb {
+.elems::-webkit-scrollbar-thumb {
   background-color: var(--color-thumb);
   border-radius: 3px;
   /* border: 3px solid orange; padding вокруг плашки */
 }
 
-._elem {
+.elem {
   display: flex;
   align-items: center;
   justify-content: space-between;

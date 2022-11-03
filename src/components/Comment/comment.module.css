@@ -5,23 +5,23 @@
   width: 100%;
 }
 
-._header {
+.header {
   display: flex;
   justify-content: space-between;
 }
 
-._header_name {
+.header_name {
   font-size: 1rem;
   line-height: 1;
 }
 
-._text {
+.text {
   font-size: 0.75rem;
   line-height: 1.4;
 
   color: var(--color-greyText);
 }
 
-._header_close {
+.header_close {
   cursor: pointer;
 }

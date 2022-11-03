@@ -1,4 +1,4 @@
-._input {
+.input {
   position: absolute;
   z-index: -1;
   opacity: 0;
@@ -20,7 +20,7 @@
   border-bottom: 3px solid transparent;
 }
 
-._flag {
+.flag {
   width: 20px;
   height: 20px;
 
@@ -30,12 +30,12 @@
   border-radius: 50%;
 }
 
-._flag_checked {
+.flag_checked {
   background: url("../../icons/markFilter.svg") no-repeat center center;
   background-color: var(--color-white);
   box-shadow: 0px 1px 2px var(--color-yellow);
 }
 
-._container_checked {
+.container_checked {
   border-bottom: 3px solid var(--color-yellow);
 }

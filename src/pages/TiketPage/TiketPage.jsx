@@ -57,24 +57,24 @@ export const TiketPage = () => {
     <>
       <div className={classNames(styles.container)}>
         <button
-          className={classNames(styles._button)}
+          className={classNames(styles.button)}
           onClick={() => navigate("/TodoList")}>
           <img src={path} alt="" />
           <p>Вернуться к задачам</p>
         </button>
         <section className={classNames(styles.list)}>
-          <div className={classNames(styles._list_header)}>
+          <div className={classNames(styles.list_header)}>
             <h3>{boardHeadetText}</h3>
             <div
-              className={classNames(styles._list_btn)}
+              className={classNames(styles.list_btn)}
               onClick={() =>
                 (document.querySelector(".pop").style.display = "flex")
               }>
-              <span className={classNames(styles._list_btnElem)}></span>
-              <span className={classNames(styles._list_btnElem)}></span>
-              <span className={classNames(styles._list_btnElem)}></span>
+              <span className={classNames(styles.list_btnElem)}></span>
+              <span className={classNames(styles.list_btnElem)}></span>
+              <span className={classNames(styles.list_btnElem)}></span>
             </div>
-            <div className={classNames(styles._pop, "pop")}>
+            <div className={classNames(styles.pop, "pop")}>
               <button
                 className={classNames(styles.pop_close)}
                 onClick={() =>
@@ -82,11 +82,11 @@ export const TiketPage = () => {
                 }
               />
               <p
-                className={classNames(styles._pop_text)}
+                className={classNames(styles.pop_text)}
                 onClick={() => setActiveDeleteTiket(true)}>
                 Удалить
               </p>
-              <p className={classNames(styles._pop_text)}>Редактировать</p>
+              <p className={classNames(styles.pop_text)}>Редактировать</p>
             </div>
           </div>
 
@@ -106,7 +106,7 @@ export const TiketPage = () => {
               updateCard(values);
             }}>
             {(props) => (
-              <Form className={classNames(styles._main)}>
+              <Form className={classNames(styles.main)}>
                 <Input
                   placeholderInput="Название"
                   placeholderText="Описание"
@@ -129,17 +129,17 @@ export const TiketPage = () => {
                   </div>
                 )}
 
-                <div className={classNames(styles._main_tags)}>
+                <div className={classNames(styles.main_tags)}>
                   {card.tags?.map((tag, index) => {
                     return (
-                      <div className={classNames(styles._tag)} key={index}>
+                      <div className={classNames(styles.tag)} key={index}>
                         <Tag flagColor={tag} />
                       </div>
                     );
                   })}
                 </div>
 
-                <div className={classNames(styles._main_comments)}>
+                <div className={classNames(styles.main_comments)}>
                   {card.comments?.map((comment, index) => (
                     <Comment
                       name={comment.name}
@@ -151,14 +151,14 @@ export const TiketPage = () => {
                   ))}
                   <NavLink
                     to={`/TodoList/tiket/${card.id}/create-comment`}
-                    className={classNames(styles._buttonComment)}
+                    className={classNames(styles.buttonComment)}
                     onClick={() =>
                       navigate(`/TodoList/tiket/${card.id}/create-comment`)
                     }>
                     Добавить комментарий
                   </NavLink>
                 </div>
-                <div className={classNames(styles._main_btn)}>
+                <div className={classNames(styles.main_btn)}>
                   <Button value={"Сохранить"} flagPlus={false} />
                 </div>
               </Form>

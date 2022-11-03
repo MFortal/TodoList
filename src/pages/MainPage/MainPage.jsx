@@ -40,22 +40,22 @@ export const MainPage = () => {
   return (
     <>
       <div className={classNames(styles.container)}>
-        <section className={classNames(styles._filters)}>{checkboxes}</section>
-        <section className={classNames(styles._cards)}>
+        <section className={classNames(styles.filters)}>{checkboxes}</section>
+        <section className={classNames(styles.cards)}>
           {boards.map((board) => {
             return (
               <article className={classNames(styles.list)} key={board.id}>
-                <div className={classNames(styles._header)}>
-                  <h3 className={classNames(styles._header_title)}>
+                <div className={classNames(styles.header)}>
+                  <h3 className={classNames(styles.header_title)}>
                     {board.headerText}
                   </h3>
-                  <span className={classNames(styles._header_countTasks)}>
+                  <span className={classNames(styles.header_countTasks)}>
                     {cards.filter((card) => card.boardId === board.id).length}{" "}
                     tasks
                   </span>
                 </div>
-                <div className={classNames(styles._main)}>
-                  <div className={classNames(styles._main_cards)}>
+                <div className={classNames(styles.main)}>
+                  <div className={classNames(styles.main_cards)}>
                     {cards
                       .filter((card) => card.boardId === board.id)
                       .map((card) => {
