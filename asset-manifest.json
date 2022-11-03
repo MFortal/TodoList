@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/todolist/static/css/main.a84c9253.css",
+    "main.js": "/todolist/static/js/main.ff86f2bc.js",
+    "static/media/PoorStory-Regular.svg": "/todolist/static/media/PoorStory-Regular.cce97fde123a84a56663.svg",
+    "static/media/PoorStory-Regular.ttf": "/todolist/static/media/PoorStory-Regular.afcf42a8b0aba41b344b.ttf",
+    "static/media/PoorStory-Regular.eot": "/todolist/static/media/PoorStory-Regular.17fd851496e8f9b31c56.eot",
+    "static/media/PoorStory-Regular.woff": "/todolist/static/media/PoorStory-Regular.9813be96f902ff1d7417.woff",
+    "static/media/PoorStory-Regular.woff2": "/todolist/static/media/PoorStory-Regular.a170072817f3247d88af.woff2",
+    "static/media/Oswald-Light.svg": "/todolist/static/media/Oswald-Light.884dda65f1001adb8589.svg",
+    "static/media/Oswald-Light.ttf": "/todolist/static/media/Oswald-Light.39c8353d618630f9b703.ttf",
+    "static/media/Oswald-Light.eot": "/todolist/static/media/Oswald-Light.998d402170661d2d26a4.eot",
+    "static/media/Oswald-Light.woff": "/todolist/static/media/Oswald-Light.9a5a7c5fcaef479921bf.woff",
+    "static/media/Oswald-Light.woff2": "/todolist/static/media/Oswald-Light.3fd1df0648f0d389dcac.woff2",
+    "static/media/comment.svg": "/todolist/static/media/comment.5c9d68f23424cabde9742344f295c1d4.svg",
+    "static/media/description.svg": "/todolist/static/media/description.bb192de538c9323c9312a7efb149bad4.svg",
+    "static/media/deleteTag.svg": "/todolist/static/media/deleteTag.166123cded304cf0f09a.svg",
+    "static/media/closeModal.svg": "/todolist/static/media/closeModal.c2c810bd66a5b32a1af7.svg",
+    "static/media/arrow.svg": "/todolist/static/media/arrow.49d1a3a76c76d1843707.svg",
+    "static/media/notfound.svg": "/todolist/static/media/notfound.99cb1093f5be674c47b1f7621094f53a.svg",
+    "index.html": "/todolist/index.html",
+    "static/media/button.svg": "/todolist/static/media/button.413c907966f0cae1b309c987f307dc69.svg",
+    "static/media/close.svg": "/todolist/static/media/close.4e6d34f63d9c2d9fc085fca2a12e5d10.svg",
+    "static/media/plus.svg": "/todolist/static/media/plus.915836a78b5d173aca08923ead16a409.svg",
+    "static/media/plusComment.svg": "/todolist/static/media/plusComment.e73664ee119385a4ca37.svg",
+    "static/media/markCheckbox.svg": "/todolist/static/media/markCheckbox.3cd263d35db4959ff7e2.svg",
+    "static/media/markFilter.svg": "/todolist/static/media/markFilter.2c4a05b235a32d86c3e1.svg",
+    "main.a84c9253.css.map": "/todolist/static/css/main.a84c9253.css.map",
+    "main.ff86f2bc.js.map": "/todolist/static/js/main.ff86f2bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a84c9253.css",
+    "static/js/main.ff86f2bc.js"
+  ]
+}
