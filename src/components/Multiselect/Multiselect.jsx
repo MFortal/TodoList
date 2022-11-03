@@ -1,4 +1,4 @@
-import styles from "./multiselect.module.css";
+import styles from "./Multiselect.module.css";
 import classNames from "classnames";
 import Checkbox from "../Checkbox/Checkbox";
 import { useSelector } from "react-redux";

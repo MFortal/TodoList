@@ -1,4 +1,4 @@
-import stylesModal from "../../pages/Modal/modal.module.css";
+import stylesModal from "../../pages/Modal/Modal.module.css";
 import classNames from "classnames";
 import Tag from "../../components/Tag/Tag";
 import Input from "../../components/Input/Input";

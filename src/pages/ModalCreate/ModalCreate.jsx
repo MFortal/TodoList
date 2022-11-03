@@ -1,4 +1,4 @@
-import stylesModal from "../../pages/Modal/modal.module.css";
+import stylesModal from "../../pages/Modal/Modal.module.css";
 import classNames from "classnames";
 import Button from "../../components/Button/Button";
 import Multiselect from "../../components/Multiselect/Multiselect";

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classNames from "classnames";
-import styles from "./tiketPage.module.css";
-import stylesModal from "../Modal/modal.module.css";
+import styles from "./TiketPage.module.css";
+import stylesModal from "../Modal/Modal.module.css";
 import path from "../../icons/button.svg";
 
 import Input from "../../components/Input/Input";

@@ -1,4 +1,4 @@
-import styles from "./tag.module.css";
+import styles from "./Tag.module.css";
 import classNames from "classnames";
 
 export const Tag = ({ flagColor }) => {

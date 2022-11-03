@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from "react";
 import { createPortal } from "react-dom";
-import styles from "./modal.module.css";
+import styles from "./Modal.module.css";
 import classNames from "classnames";
 
 const Modal = (props) => {

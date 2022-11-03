@@ -1,4 +1,4 @@
-import styles from "./filter.module.css";
+import styles from "./Filter.module.css";
 import classNames from "classnames";
 import { useDispatch } from "react-redux";
 import { changeFilterAction } from "../../store/filterReducer";

@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import styles from "./mainPage.module.css";
+import styles from "./MainPage.module.css";
 import Filter from "../../components/Filter/Filter";
 import { useSelector } from "react-redux";
 import { Button } from "../../components/Button/Button";

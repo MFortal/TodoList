@@ -1,4 +1,4 @@
-import styles from "./card.module.css";
+import styles from "./Card.module.css";
 import classNames from "classnames";
 import pathComment from "../../icons/comment.svg";
 import pathDescription from "../../icons/description.svg";

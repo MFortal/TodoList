@@ -1,4 +1,4 @@
-import styles from "./button.module.css";
+import styles from "./Button.module.css";
 import classNames from "classnames";
 import pathImg from "../../icons/plus.svg";
 import { useNavigate } from "react-router-dom";

@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import styles from "./notFoundPage.module.css";
+import styles from "./NotFoundPage.module.css";
 import pathIcon from "../../icons/notfound.svg";
 import { NavLink } from "react-router-dom";
 

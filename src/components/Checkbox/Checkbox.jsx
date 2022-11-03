@@ -1,7 +1,7 @@
 import { Field } from "formik";
 import { Tag } from "../Tag/Tag";
 import classNames from "classnames";
-import styles from "./checkbox.module.css";
+import styles from "./Checkbox.module.css";
 
 export const Checkbox = (props) => {
   return (

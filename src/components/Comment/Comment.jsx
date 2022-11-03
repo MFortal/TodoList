@@ -1,4 +1,4 @@
-import styles from "./comment.module.css";
+import styles from "./Comment.module.css";
 import classNames from "classnames";
 import pathCloseImg from "../../icons/close.svg";
 import { useDispatch } from "react-redux";
