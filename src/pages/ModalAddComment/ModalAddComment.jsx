@@ -1,12 +1,14 @@
-import stylesModal from "../../pages/Modal/Modal.module.css";
-import classNames from "classnames";
-import Button from "../../components/Button/Button";
-import Input from "../../components/Input/Input";
-import { Formik, Form } from "formik";
-import { useDispatch } from "react-redux";
-import { addCommentAction } from "../../store/cardReducer";
 import { v4 } from "uuid";
 import { useNavigate, useParams } from "react-router-dom";
+import { Formik, Form } from "formik";
+import { useDispatch } from "react-redux";
+import classNames from "classnames";
+
+import { addCommentAction } from "../../store/cardReducer";
+import Button from "../../components/Button/Button";
+import Input from "../../components/Input/Input";
+
+import stylesModal from "../../pages/Modal/Modal.module.css";
 
 export const ModalAddComment = () => {
   const navigate = useNavigate();

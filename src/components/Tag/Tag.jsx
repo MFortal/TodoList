@@ -1,5 +1,5 @@
-import styles from "./Tag.module.css";
 import classNames from "classnames";
+import styles from "./Tag.module.css";
 
 export const Tag = ({ flagColor }) => {
   let tagClass;

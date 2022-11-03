@@ -1,13 +1,15 @@
-import stylesModal from "../../pages/Modal/Modal.module.css";
+import { Formik, Form } from "formik";
+import { useDispatch } from "react-redux";
+import { v4 } from "uuid";
+import { useNavigate, useLocation } from "react-router-dom";
 import classNames from "classnames";
+
+import { addCardAction } from "../../store/cardReducer";
 import Button from "../../components/Button/Button";
 import Multiselect from "../../components/Multiselect/Multiselect";
 import Input from "../../components/Input/Input";
-import { Formik, Form } from "formik";
-import { useDispatch } from "react-redux";
-import { addCardAction } from "../../store/cardReducer";
-import { v4 } from "uuid";
-import { useNavigate, useLocation } from "react-router-dom";
+
+import stylesModal from "../../pages/Modal/Modal.module.css";
 
 export const ModalCreate = () => {
   const navigate = useNavigate();
@@ -37,8 +39,7 @@ export const ModalCreate = () => {
 
   return (
     <>
-      <div
-        className={classNames(stylesModal.modal)}>
+      <div className={classNames(stylesModal.modal)}>
         <div className={classNames(stylesModal.modal_content)}>
           <button
             className={classNames(stylesModal.modal_close)}

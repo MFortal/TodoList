@@ -1,16 +1,18 @@
 import React from "react";
 import classNames from "classnames";
-import styles from "./MainPage.module.css";
-import Filter from "../../components/Filter/Filter";
 import { useSelector } from "react-redux";
-import { Button } from "../../components/Button/Button";
-import { Card } from "../../components/Card/Card";
+import { Outlet } from "react-router-dom";
+
 import {
   filterSelector,
   cardSelector,
   boardsSelector,
 } from "../../store/selectors";
-import { Outlet } from "react-router-dom";
+import Filter from "../../components/Filter/Filter";
+import { Button } from "../../components/Button/Button";
+import { Card } from "../../components/Card/Card";
+
+import styles from "./MainPage.module.css";
 
 export const MainPage = () => {
   const filters = useSelector(filterSelector);

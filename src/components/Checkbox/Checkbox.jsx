@@ -1,6 +1,7 @@
 import { Field } from "formik";
-import { Tag } from "../Tag/Tag";
 import classNames from "classnames";
+
+import { Tag } from "../Tag/Tag";
 import styles from "./Checkbox.module.css";
 
 const onChange = (form, value, props) => {

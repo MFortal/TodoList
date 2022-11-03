@@ -1,8 +1,8 @@
-import styles from "./Multiselect.module.css";
-import classNames from "classnames";
-import Checkbox from "../Checkbox/Checkbox";
 import { useSelector } from "react-redux";
+import classNames from "classnames";
 import { tagsSelector } from "../../store/selectors";
+import Checkbox from "../Checkbox/Checkbox";
+import styles from "./Multiselect.module.css";
 
 export const Multiselect = () => {
   const tags = useSelector(tagsSelector);

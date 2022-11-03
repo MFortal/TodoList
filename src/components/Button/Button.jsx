@@ -1,7 +1,8 @@
-import styles from "./Button.module.css";
-import classNames from "classnames";
-import pathImg from "../../icons/plus.svg";
 import { useNavigate } from "react-router-dom";
+import classNames from "classnames";
+
+import pathImg from "../../icons/plus.svg";
+import styles from "./Button.module.css";
 
 export const Button = ({ value, flagPlus, boardId }) => {
   const navigate = useNavigate();

@@ -1,8 +1,9 @@
-import styles from "./Comment.module.css";
-import classNames from "classnames";
-import pathCloseImg from "../../icons/close.svg";
 import { useDispatch } from "react-redux";
+import classNames from "classnames";
+
 import { removeCommentAction } from "../../store/cardReducer";
+import pathCloseImg from "../../icons/close.svg";
+import styles from "./Comment.module.css";
 
 export const Comment = ({ name, text, cardId, commentId }) => {
   const dispatch = useDispatch();

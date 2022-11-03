@@ -1,11 +1,13 @@
-import styles from "./Card.module.css";
+import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
 import classNames from "classnames";
+
+import { cardSelector } from "../../store/selectors";
 import pathComment from "../../icons/comment.svg";
 import pathDescription from "../../icons/description.svg";
 import Tag from "../Tag/Tag";
-import { useSelector } from "react-redux";
-import { cardSelector } from "../../store/selectors";
-import { NavLink } from "react-router-dom";
+
+import styles from "./Card.module.css";
 
 export const Card = ({ id }) => {
   const card = useSelector(cardSelector).find((c) => c.id === id);

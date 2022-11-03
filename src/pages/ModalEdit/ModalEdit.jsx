@@ -1,14 +1,15 @@
-import stylesModal from "../../pages/Modal/Modal.module.css";
+import { useSelector, useDispatch } from "react-redux";
+import { Formik, Form } from "formik";
+import { useParams, useNavigate } from "react-router-dom";
 import classNames from "classnames";
+
+import { cardSelector } from "../../store/selectors";
+import { updateCardAction } from "../../store/cardReducer";
 import Tag from "../../components/Tag/Tag";
 import Input from "../../components/Input/Input";
 import Button from "../../components/Button/Button";
 import Multiselect from "../../components/Multiselect/Multiselect";
-import { useSelector, useDispatch } from "react-redux";
-import { cardSelector } from "../../store/selectors";
-import { Formik, Form } from "formik";
-import { updateCardAction } from "../../store/cardReducer";
-import { useParams, useNavigate } from "react-router-dom";
+import stylesModal from "../../pages/Modal/Modal.module.css";
 
 export const ModalEdit = () => {
   const navigate = useNavigate();

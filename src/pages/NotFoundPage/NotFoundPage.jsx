@@ -1,7 +1,7 @@
+import { NavLink } from "react-router-dom";
 import classNames from "classnames";
 import styles from "./NotFoundPage.module.css";
 import pathIcon from "../../icons/notfound.svg";
-import { NavLink } from "react-router-dom";
 
 export const NotFoundPage = () => {
   return (

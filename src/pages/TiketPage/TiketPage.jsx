@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { useParams, useNavigate, Outlet, NavLink } from "react-router-dom";
+import { Formik, Form } from "formik";
 import classNames from "classnames";
-import styles from "./TiketPage.module.css";
-import stylesModal from "../Modal/Modal.module.css";
-import path from "../../icons/button.svg";
 
 import Input from "../../components/Input/Input";
 import Tag from "../../components/Tag/Tag";
@@ -10,11 +10,12 @@ import Comment from "../../components/Comment/Comment";
 import Button from "../../components/Button/Button";
 import Modal from "../../pages/Modal/Modal";
 
-import { useSelector, useDispatch } from "react-redux";
 import { cardSelector, boardsSelector } from "../../store/selectors";
-import { useParams, useNavigate, Outlet, NavLink } from "react-router-dom";
-import { Formik, Form } from "formik";
 import { updateCardAction, removeCardAction } from "../../store/cardReducer";
+
+import styles from "./TiketPage.module.css";
+import stylesModal from "../Modal/Modal.module.css";
+import path from "../../icons/button.svg";
 
 export const TiketPage = () => {
   const { cardId } = useParams();

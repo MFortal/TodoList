@@ -1,7 +1,8 @@
-import styles from "./Filter.module.css";
-import classNames from "classnames";
 import { useDispatch } from "react-redux";
+import classNames from "classnames";
+
 import { changeFilterAction } from "../../store/filterReducer";
+import styles from "./Filter.module.css";
 
 export const Filter = ({ id, value, checked }) => {
   const dispatch = useDispatch();

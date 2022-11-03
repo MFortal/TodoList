@@ -1,5 +1,6 @@
 import React from "react";
 import { Provider } from "react-redux";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { store } from "./store/index";
 import MainPage from "./pages/MainPage/MainPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
@@ -7,7 +8,6 @@ import TiketPage from "./pages/TiketPage/TiketPage";
 import ModalEdit from "./pages/ModalEdit/ModalEdit";
 import ModalCreate from "./pages/ModalCreate/ModalCreate";
 import ModalAddComment from "./pages/ModalAddComment/ModalAddComment";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export const App = () => {
   return (
