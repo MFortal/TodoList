@@ -1,0 +1,155 @@
+.container {
+  padding: 50px 130px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+._button {
+  background: transparent;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 100%;
+  margin-bottom: 64px;
+
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.list {
+  width: 500px;
+  position: relative;
+}
+
+._list_header {
+  margin-bottom: 14px;
+  padding-left: 25px;
+  padding-right: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+._header {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+._main {
+  border: solid 1px var(--color-yellow);
+  border-radius: 7px;
+  padding: 14px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+._main_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+._list_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 8px;
+}
+
+._list_btnElem {
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  background: var(--color-grey);
+}
+
+._list_btn {
+  cursor: pointer;
+}
+
+._pop {
+  background: var(--color-white);
+  box-shadow: 2px 3px 5px var(--color-black);
+  border-radius: 6px;
+
+  height: 62px;
+
+  right: 14px;
+  position: absolute;
+  display: none;
+
+  font-size: 0.875rem;
+  line-height: 1.1;
+  width: 133px;
+
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pop_close {
+  background: url("../../icons/closeModal.svg") no-repeat center;
+  padding: 12px;
+
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+._pop_text:hover {
+  cursor: pointer;
+}
+
+._tag {
+  width: 60px;
+  height: 24px;
+}
+
+._main_tags {
+  display: flex;
+  gap: 8px;
+  width: 95%;
+  flex-wrap: wrap;
+}
+._main_btn {
+  width: 100%;
+}
+
+._main_comments {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 95%;
+}
+
+._buttonComment {
+  font-size: 0.875rem;
+  line-height: 1.1;
+  background-color: transparent;
+  color: var(--color-grey);
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+._buttonComment::before {
+  content: "";
+  background: url("../../icons/plusComment.svg");
+  width: 12px;
+  height: 12px;
+}

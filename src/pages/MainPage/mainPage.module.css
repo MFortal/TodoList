@@ -1,0 +1,77 @@
+.container {
+  padding: 36px 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+._filters {
+  display: flex;
+  margin-bottom: 80px;
+  gap: 35px;
+}
+
+._cards {
+  display: flex;
+  gap: 20px;
+}
+
+.list {
+  width: 350px;
+}
+
+._header {
+  font-size: 1rem;
+  line-height: 1.2;
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "PoorStory-Regular", cursive;
+}
+
+._header_title {
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+._header_countTasks {
+  color: var(--color-grey);
+  font-size: 1.125rem;
+}
+
+._main {
+  border: solid 1px var(--color-yellow);
+  border-radius: 7px;
+  padding: 14px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+._main_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+._header_title::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: var(--color-yellow);
+  content: "";
+  transition: width 0.3s ease-out;
+}
+
+.list:hover ._header_title::after {
+  width: 80%;
+}
+
+.list:hover ._main {
+  border: 1px solid var(--color-yellow);
+}
