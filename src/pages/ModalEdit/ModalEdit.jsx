@@ -23,26 +23,24 @@ export const ModalEdit = () => {
 
   const card = useSelector(cardSelector).find((c) => c.id === cardId);
 
-const validate = (values) => {
-  const errors = {};
-  if (values.description?.length > 0 && values.description?.length < 10) {
-    errors.description = "Описание задачки должно быть больше 10 символов";
-  }
-  if (values.name?.length < 5) {
-    errors.name = "Наименование задачки должно быть больше 5 символов";
-  }
-  if (!values.tags?.length) {
-    errors.tags = "Выберите хотя бы 1 тег";
-  }
+  const validate = (values) => {
+    const errors = {};
+    if (values.description?.length > 0 && values.description?.length < 10) {
+      errors.description = "Описание задачки должно быть больше 10 символов";
+    }
+    if (values.name?.length < 5) {
+      errors.name = "Наименование задачки должно быть больше 5 символов";
+    }
+    if (!values.tags?.length) {
+      errors.tags = "Выберите хотя бы 1 тег";
+    }
 
-  return errors;
-};
-  
+    return errors;
+  };
 
   return (
     <>
-      <div
-        className={classNames(stylesModal.modal)}>
+      <div className={classNames(stylesModal.modal)}>
         <div className={classNames(stylesModal.modal_content)}>
           <button
             className={classNames(stylesModal.modal_close)}
@@ -113,7 +111,7 @@ const validate = (values) => {
                 )}
 
                 <Multiselect />
-                <Button value={"Сохранить"} flagPlus={false} />
+                <Button value={"Сохранить"} />
               </Form>
             )}
           </Formik>

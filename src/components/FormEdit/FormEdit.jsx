@@ -91,7 +91,7 @@ export const FormEdit = () => {
             )}
 
             <Multiselect />
-            <Button value={"Сохранить"} flagPlus={false} />
+            <Button value={"Сохранить"} />
           </Form>
         )}
       </Formik>

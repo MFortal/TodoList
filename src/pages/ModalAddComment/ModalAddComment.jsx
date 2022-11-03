@@ -75,7 +75,7 @@ export const ModalAddComment = () => {
                   </div>
                 )}
                 {/* <button type="submit">gggggggggg</button> */}
-                <Button value={"Сохранить"} flagPlus={false} />
+                <Button value={"Сохранить"} />
               </Form>
             )}
           </Formik>

@@ -160,7 +160,7 @@ export const TiketPage = () => {
                   </NavLink>
                 </div>
                 <div className={classNames(styles.main_btn)}>
-                  <Button value={"Сохранить"} flagPlus={false} />
+                  <Button value={"Сохранить"} />
                 </div>
               </Form>
             )}

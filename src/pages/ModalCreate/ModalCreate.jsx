@@ -85,7 +85,7 @@ export const ModalCreate = () => {
                   </div>
                 )}
                 <Multiselect />
-                <Button value={"Сохранить"} flagPlus={false} />
+                <Button value={"Сохранить"} />
               </Form>
             )}
           </Formik>

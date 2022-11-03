@@ -4,7 +4,7 @@ import classNames from "classnames";
 import pathImg from "../../icons/plus.svg";
 import styles from "./Button.module.css";
 
-export const Button = ({ value, flagPlus, boardId }) => {
+export const Button = ({ value, flagPlus = false, boardId }) => {
   const navigate = useNavigate();
 
   const onClick = () =>
